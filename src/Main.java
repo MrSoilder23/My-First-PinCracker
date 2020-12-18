@@ -24,7 +24,7 @@ public class Main {
 
         int password = -1;
 
-        for(int i = 0; i < 1000; i++) {
+        for(int i = 0; i < 10000; i++) {
             Thread.sleep(250);
 
             password++;
@@ -36,7 +36,7 @@ public class Main {
             robotE();
             Thread.sleep(10);
 
-            for (int a = 0; a < 3; a++) {
+            for (int a = 0; a < 9; a++) {
                 Thread.sleep(15);
                 switch(numbers[a]) {
                     case '0':
